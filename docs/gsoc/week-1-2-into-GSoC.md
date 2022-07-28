@@ -2,14 +2,14 @@
 
 The coding period has finally begun!
 
-My mentor, Sayam Kumar, and I have agreed to hold weekly progress calls to discuss the project's progress and what steps we should take next. The Week begins with this phone call. We decided to split the project into two parts because it involves two libraries.
+My mentor, [Sayam Kumar](https://github.com/Sayam753), and I have agreed to hold weekly progress calls to discuss the project's progress and what steps we should take next. The Week begins with this phone call. We decided to split the project into two parts because it involves two libraries.
 
 1. Aesara
 2. PyMC
 
-The first step was to collect Aesara's Op, which is used in Multivariate Distributions.
+The first step was to collect Aesara's `Op`, which is used in Multivariate Distributions.
 
-Before we continue, allow me to introduce you to Aesara and its Op. Though I am still learning, I have some knowledge of Op from the end of community bonding.
+Before we continue, allow me to introduce you to `Aesara` and its `Op`. Though I am still learning, I have some knowledge of Op from the end of community bonding.
 
 
 ## Aesara
