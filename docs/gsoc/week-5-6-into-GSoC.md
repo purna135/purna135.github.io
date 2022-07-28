@@ -1,6 +1,6 @@
 # Week 5-6 into GSoC
 
-This week I spent a lot of time experimenting with the performance of Numpy and Scipy. I have created two notebooks one is for small batches of data and the other is for large amounts of data. I noted the time taken by both Numpy and Scipy to compute the Cholesky decomposition and got the below result:
+This week I spent a lot of time experimenting with Numpy and Scipy's performance. I've made two notebooks, one for small batches of data and one for large amounts of data. I recorded the time it took Numpy and Scipy to compute the Cholesky decomposition and obtained the following result:
 
 ## Experiment - 1 (for small data)
 <script src="https://gist.github.com/purna135/1c217a521cf5f31a87c783cf49c4101d.js"></script>
@@ -16,9 +16,10 @@ To summarize I got the bellow 2 graphs:
 2. Numpy vs Scipy for Large Dataset
 ![](/images/cholesky-2.png){ align=center }
 
-As we can see from these two graphs the Numpy is performing better with the reasonable dataset, so we decided to go with the Numpy implementation.
 
-With the help of my mentor, I have implemented the `Solve` and `Cholesky` in Aesara and now we are fixing some issues with calculating `grad`.
+As we can see from these two graphs, Numpy outperforms Python with a reasonable dataset, so we chose the Numpy implementation.
+
+I implemented the `Solve` and `Cholesky` in Aesara with the help of my mentor, and we are now working on resolving some `grad` issues.
 
 I owe my mentor a huge debt of gratitude. He is really amiable and helpful. He is always willing to assist and has clarified all of my doubts for me, even when I ask him dumb things in Slack. He spent a lot of time debugging the code and came up with an easy fix; in fact, he taught me how to debug. He's the one who first showed me how to use the Python Debugger (PDB).
 
