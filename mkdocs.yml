@@ -1,0 +1,43 @@
+# Project information
+site_name: Purna Chandra Mansingh
+site_description: My Online Portfolio
+site_author: Purna Chandra Mansingh
+site_url: https://purna135.github.io/
+
+# Repository
+# repo_name: purna135/purna135.github.io
+# repo_url: https://github.com/purna135/purna135.github.io
+
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+
+
+# Nav
+nav:
+  - Home: index.md
+  - GSoC:
+      - GSoC'22 with PyMC: gsoc\gsoc-2022-with-pymc.md
+      - Community Bonding: gsoc\community-bonding.md
+      - Week 1-2 into GSoC: gsoc\week-1-2-into-GSoC.md
+      - Week 3-4 into GSoC: gsoc\week-3-4-into-GSoC.md
+      - Week 5-6 into GSoC: gsoc\week-5-6-into-GSoC.md
+
+
+# Formatting
+markdown_extensions:
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+
+# Images
+markdown_extensions:
+  - attr_list
+  - md_in_html
