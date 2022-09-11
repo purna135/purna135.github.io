@@ -185,6 +185,6 @@ It was a fantastic experience to contribute to open source. I learned a lot of n
 
 I'd like to thank my mentors [Sayam Kumar](https://github.com/Sayam753) and [Ricardo Vieira](https://github.com/ricardoV94) for their unwavering support throughout this journey. I'm having a great time with the PyMC community. Next, I'd like to thank the [@numfocus](https://github.com/numfocus) community for making this opportunity available through Google Summer of Code.
 
-Thank you for being a part of our wonderful summer.
+Thank you for being a part of this wonderful summer.
 
 With 💗, Purna Chandra Mansingh
