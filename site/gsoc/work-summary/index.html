@@ -1,0 +1,925 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="My Online Portfolio">
+      
+      
+        <meta name="author" content="Purna Chandra Mansingh">
+      
+      
+        <link rel="canonical" href="https://purna135.github.io/gsoc/work-summary/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.3.5">
+    
+    
+      
+        <title>Work Summary - Purna Chandra Mansingh</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4a0965b7.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#google-summer-of-code22-highlights-with-pymc" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Purna Chandra Mansingh" class="md-header__button md-logo" aria-label="Purna Chandra Mansingh" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Purna Chandra Mansingh
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Work Summary
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../gsoc-2022-with-pymc/" class="md-tabs__link md-tabs__link--active">
+        GSoC
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Purna Chandra Mansingh" class="md-nav__button md-logo" aria-label="Purna Chandra Mansingh" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Purna Chandra Mansingh
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          GSoC
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="GSoC" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          GSoC
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gsoc-2022-with-pymc/" class="md-nav__link">
+        GSoC'22 with PyMC
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community-bonding/" class="md-nav__link">
+        Community Bonding
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../week-1-2-into-GSoC/" class="md-nav__link">
+        Week 1-2 into GSoC
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../week-3-4-into-GSoC/" class="md-nav__link">
+        Week 3-4 into GSoC
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../week-5-6-into-GSoC/" class="md-nav__link">
+        Week 5-6 into GSoC
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Work Summary
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Work Summary
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#about-the-project" class="md-nav__link">
+    About the project 🚩
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-bounding-period" class="md-nav__link">
+    Community Bounding Period 🤝
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#month-1" class="md-nav__link">
+    Month - 1️⃣:
+  </a>
+  
+    <nav class="md-nav" aria-label="Month - 1️⃣:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#below-are-the-lists-of-ops-used-by-pymc-distributions" class="md-nav__link">
+    Below are the lists of Ops used by PyMC distributions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#achived-this-month" class="md-nav__link">
+    Achived this month:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#month-2" class="md-nav__link">
+    Month - 2️⃣:
+  </a>
+  
+    <nav class="md-nav" aria-label="Month - 2️⃣:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#work-completed-this-month" class="md-nav__link">
+    Work completed this month:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#month-3" class="md-nav__link">
+    Month - 3️⃣:
+  </a>
+  
+    <nav class="md-nav" aria-label="Month - 3️⃣:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#work-done-this-month" class="md-nav__link">
+    Work done this month:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contributions" class="md-nav__link">
+    Contributions ⚒
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notebookgists-created" class="md-nav__link">
+    Notebook/Gists Created 📝
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#future-goals" class="md-nav__link">
+    Future Goals 📌
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    Conclusion 💌
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#about-the-project" class="md-nav__link">
+    About the project 🚩
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-bounding-period" class="md-nav__link">
+    Community Bounding Period 🤝
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#month-1" class="md-nav__link">
+    Month - 1️⃣:
+  </a>
+  
+    <nav class="md-nav" aria-label="Month - 1️⃣:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#below-are-the-lists-of-ops-used-by-pymc-distributions" class="md-nav__link">
+    Below are the lists of Ops used by PyMC distributions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#achived-this-month" class="md-nav__link">
+    Achived this month:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#month-2" class="md-nav__link">
+    Month - 2️⃣:
+  </a>
+  
+    <nav class="md-nav" aria-label="Month - 2️⃣:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#work-completed-this-month" class="md-nav__link">
+    Work completed this month:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#month-3" class="md-nav__link">
+    Month - 3️⃣:
+  </a>
+  
+    <nav class="md-nav" aria-label="Month - 3️⃣:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#work-done-this-month" class="md-nav__link">
+    Work done this month:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contributions" class="md-nav__link">
+    Contributions ⚒
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notebookgists-created" class="md-nav__link">
+    Notebook/Gists Created 📝
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#future-goals" class="md-nav__link">
+    Future Goals 📌
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    Conclusion 💌
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="google-summer-of-code22-highlights-with-pymc">Google Summer of Code'22 Highlights with PyMC</h1>
+<p><img align="center" alt="" src="/images/gsoc-pymc.jpg" /></p>
+<p>This post is intended to summarise the work completed during the GSoC coding period.</p>
+<h2 id="about-the-project">About the project 🚩</h2>
+<p>Several multivariate distributions in PyMC, such as MvNormal, MvStudentT, and others, are constrained to working with 2D inputs and do not function with arbitrarily batched dimensions. The project's goal was to improve multivariate distribution support, making it possible to work with batched data (&gt;2D) in a vectorized manner.</p>
+<h2 id="community-bounding-period">Community Bounding Period 🤝</h2>
+<ul>
+<li>This was a super interesting period. I got to know about many PyMC core developers through slack.</li>
+<li>Due to my university exam I was quite occupied but I managed to spent some time learning about the basics of Bayesian statistics, RandomVariable, Aesara.</li>
+<li>I took part in PyMC Developer Hackathon which gave me opprtunity of meet with PyMC core developer in video call and learned a lot of things about PyMC.</li>
+<li>I started working on some good first issue and by the help of PyMC team I was able to merger the PR<a href="https://github.com/pymc-devs/pymc/pull/5806">#5806</a>  </li>
+<li>The most difficult part for me was understanding the Aesara, how the symbolic variale works and how to implement a new Ops.</li>
+</ul>
+<h2 id="month-1">Month - 1️⃣:</h2>
+<p>The coding period began on June 13, and my goal for this period was to list all of the Ops used by the PyMC distributions that I want to generalize. Before beginning work on the actual issue, I began exploring Aesara, reading a lot about it from Aesara documentation and attempting to create a custom Op, which can be found <a href="https://github.com/purna135/GSoC-Learnings/blob/main/Creating%20new%20Ops%20-%20Python%20implementation.ipynb">here</a>.</p>
+<ul>
+<li>
+<p>I began to investigate various PyMC distributions, and I am grateful to my Mentor, who has always assisted and guided me at every step of the way.</p>
+</li>
+<li>
+<p>With the help of my Mentor, I discovered that the Cholesky decomposition is something I should tackle first because it affects many distributions, including MvNormal, MvStudentT, MatrixNormal... etc.</p>
+</li>
+<li>
+<p>Because there are a lot of things going on in the Cholesky decomposition (for example making node, infering shape, calculating grad...etc), my mentor suggested that I start by solving a simple Op, such as <code>tril</code>, <code>triu</code>.</p>
+</li>
+<li>
+<p>After learning a little bit about these Ops, I was able to create my first PR<a href="https://github.com/aesara-devs/aesara/pull/1026">#1026</a>, which was merged into the main branch. Hooray 🙌🥳🎉, my first 1️⃣ PR has been merged, and I am super excited and energised to solve other Ops.</p>
+</li>
+<li>
+<p>I began testing all other Ops with batched data and listed all of the Ops that do not support &gt;2D data. The Ops used by the distributions are listed below, and detailed testing of these Ops can be found in this Jupyter notebook <a href="https://github.com/purna135/GSoC-Learnings/blob/main/Testing%20Ops%20with%20Nd%20data.ipynb">Notebook 1</a>, <a href="https://github.com/purna135/GSoC-Learnings/blob/main/Testing%20Ops%20with%20Nd%20data-2.ipynb">Notebook 2</a>.</p>
+</li>
+</ul>
+<h4 id="below-are-the-lists-of-ops-used-by-pymc-distributions">Below are the lists of Ops used by PyMC distributions</h4>
+<ol>
+<li>MvNormal<ul>
+<li>matrix_inverse</li>
+<li>solve (L_Op is left to be implemented)</li>
+<li>cholesky (dependent on solve)</li>
+</ul>
+</li>
+<li>MvStudentT<ul>
+<li>at.broadcast_arrays</li>
+<li>at.concatenate</li>
+<li>at.full</li>
+<li>at.diag</li>
+<li>at.all</li>
+<li>at.switch</li>
+<li>at.sum</li>
+<li>at.log</li>
+<li>at.dot</li>
+<li>solve_upper_triangular</li>
+<li>solve_lower_triangular</li>
+<li>aesara.tensor.gammaln</li>
+<li>at.log1p</li>
+</ul>
+</li>
+<li>KroneckerNormal<ul>
+<li>at.transpose</li>
+<li>at.sqrt</li>
+<li>at.batched_dot</li>
+</ul>
+</li>
+<li>MatrixNormal<ul>
+<li>at.full_like</li>
+<li>at.nlinalg.matrix_dot</li>
+<li>at.nlinalg.trace</li>
+</ul>
+</li>
+<li>LKJCorr<ul>
+<li>at.zeros_like</li>
+<li>at.take</li>
+<li>at.fill_diagonal</li>
+<li>at.arange</li>
+<li>at.linalg.det</li>
+</ul>
+</li>
+<li>LKJCholeskyCov<ul>
+<li>at.cumsum</li>
+<li>at.zeros</li>
+<li>at.sqrt</li>
+</ul>
+</li>
+<li>StickBreakingWeights<ul>
+<li>at.or_</li>
+<li>at.any</li>
+<li>at.and_</li>
+<li>at.le</li>
+<li>at. ge</li>
+<li>at.allclose</li>
+<li>at.neq</li>
+<li>at.linalg.eigh</li>
+<li>at.linalg.trace</li>
+</ul>
+</li>
+</ol>
+<p>After testing all of the operations with batch data,I identified the following operations to work on:</p>
+<ol>
+<li>solve</li>
+<li>cholesky</li>
+<li>det</li>
+<li>eigh</li>
+<li>matrix_inverse</li>
+</ol>
+<h3 id="achived-this-month">Achived this month:</h3>
+<ul>
+<li>Got a thorough understanding of Aesara Ops </li>
+<li>Generalized <code>tril</code> and <code>triu</code> beyond 2D arrays PR<a href="https://github.com/aesara-devs/aesara/pull/1026">#1026</a> </li>
+<li>Listed out all the Ops to work on</li>
+</ul>
+<h2 id="month-2">Month - 2️⃣:</h2>
+<p>This month's goal is to complete the Cholesky decomposition and the Solve method.</p>
+<ul>
+<li>
+<p>I spent a lot of time experimenting with the performance of Numpy and Scipy. I created two notebooks, one for small batches of data and the other for large amounts of data. I timed Numpy and Scipy as they computed the Cholesky decomposition.</p>
+</li>
+<li>
+<p>We decided to use Numpy Cholesky decomposition method in Aesara after seeing the results from experimets. The detailed code implementation and tests of <code>solve</code> methodcan be found in PR<a href="https://github.com/aesara-devs/aesara/pull/1060">#1060</a>.</p>
+</li>
+<li>
+<p>After submitting a PR for <code>solve</code> method, we received feedback from the Aesara developers and decided to use Scipy <code>solve</code> method and <code>Cholesky</code> decomposition instead of NumPy because SciPy supports many more parameters.</p>
+</li>
+<li>
+<p>So I spent all of my time generalising all of the Scipy methods using the NumPy vectorization technique.</p>
+</li>
+</ul>
+<h3 id="work-completed-this-month">Work completed this month:</h3>
+<ul>
+<li>Tested Numpy vs Scipy performance to solve cholesky decomposition - <a href="https://github.com/purna135/GSoC-Learnings/blob/main/Cholesky%20-%20Numpy%20vs%20Scipy%20for%20Small%20Array.ipynb">Notebook - 1</a>, <a href="https://github.com/purna135/GSoC-Learnings/blob/main/Cholesky%20-%20Numpy%20vs%20Scipy%20for%20Large%20Array.ipynb">Notebook - 2</a></li>
+<li>Implemented the Numpy Solve method in Aesara, <a href="https://github.com/aesara-devs/aesara/pull/1060">Code</a>.</li>
+<li>Implemented the NumPy Cholesky method, <a href="https://github.com/aesara-devs/aesara/compare/main...purna135:aesara:numpy_cholesky">Code</a></li>
+<li>Implemented NumPy determinant method, <a href="https://github.com/aesara-devs/aesara/compare/main...purna135:aesara:generalize_det">Code</a></li>
+<li>implemented NumPy eigh method, <a href="https://github.com/aesara-devs/aesara/compare/main...purna135:aesara:generalize_eigh">Code</a></li>
+<li>Used NumPy vectorization to generalise Scipy's solve, Cholesky, determinant, and eigh method, <a href="https://github.com/aesara-devs/aesara/compare/main...purna135:aesara:generalize_Aesara_Ops">Code</a></li>
+<li>Create tests for all new features and improve existing tests to test Ops with batched data.</li>
+</ul>
+<h2 id="month-3">Month - 3️⃣:</h2>
+<p>We planned to work on generalising the PyMC distribution beyond 2D data this month in the GSoC proposal.</p>
+<ul>
+<li>
+<p>Though our project requires the resolution of a few Ops in order to function, there are numerous other Ops that must be generalised in order to work with batched data in Apsara. As a result, we decide to work on issue<a href="https://github.com/aesara-devs/aesara/issues/695">#695</a>. This new Op allows Aesara to support batched data for all Ops, which not only solves our problem but also adds a new feature to Apsara.</p>
+</li>
+<li>
+<p><a href="https://github.com/brandonwillard">@brandonwillard</a> has already outlined a PR<a href="https://github.com/aesara-devs/aesara/pull/757">#757</a> for Blockwise Op, and my task is to add the <code>grad</code> method to this Op and get it to merge to the main branch after all of the implementation is complete.</p>
+</li>
+<li>
+<p>Aside from Aesara-related tasks, I was able to devote some time to PyMC distribution development.</p>
+</li>
+<li>
+<p><code>StickBreakingWeights</code> was the first distribution I chose because it does not require any Aesara Ops to function.</p>
+</li>
+<li>
+<p>Thank you to my mentor for explaining how PyMC works in detail. After observing the current implementation, I was able to devise a solution, and this was my first merged PR<a href="https://github.com/pymc-devs/pymc/pull/6042">#6042</a> to PyMC that allow for batched alpha in StickBreakingWeights.</p>
+</li>
+</ul>
+<h3 id="work-done-this-month">Work done this month:</h3>
+<ul>
+<li>Started working on Blockwise Op</li>
+<li>Got the PR<a href="https://github.com/pymc-devs/pymc/pull/6042">#6042</a> that allow for batched alpha in <code>StickBreakingWeights</code>.</li>
+</ul>
+<h2 id="contributions">Contributions ⚒</h2>
+<p>During this GSoC period, I worked on some issues and submitted Pull Requests; some of them were merged, while others are still open and I am working on them. A summary of them is provided below.</p>
+<ul>
+<li>Generalize tril and triu beyond 2D arrays PR<a href="https://github.com/aesara-devs/aesara/pull/1026">#1026</a></li>
+<li>Add Op to solve batched linear matrix equation PR<a href="https://github.com/aesara-devs/aesara/pull/1060">#1060</a></li>
+<li>Generalize aesara.tensor.linalg.cholesky beyond 2D arrays PR<a href="https://github.com/aesara-devs/aesara/pull/1012">#1012</a></li>
+<li>
+<p>allow for batched alpha in StickBreakingWeights PR<a href="https://github.com/pymc-devs/pymc/pull/6042">#6042</a></p>
+</li>
+<li>
+<p>Implemented the Numpy Solve method in Aesara, <a href="https://github.com/aesara-devs/aesara/pull/1060">Code</a>.</p>
+</li>
+<li>Implemented the NumPy Cholesky method, <a href="https://github.com/aesara-devs/aesara/compare/main...purna135:aesara:numpy_cholesky">Code</a></li>
+<li>Implemented NumPy determinant method, <a href="https://github.com/aesara-devs/aesara/compare/main...purna135:aesara:generalize_det">Code</a></li>
+<li>implemented NumPy eigh method, <a href="https://github.com/aesara-devs/aesara/compare/main...purna135:aesara:generalize_eigh">Code</a></li>
+<li>Used NumPy vectorization to generalise Scipy's solve, Cholesky, determinant, and eigh method, <a href="https://github.com/aesara-devs/aesara/compare/main...purna135:aesara:generalize_Aesara_Ops">Code</a></li>
+</ul>
+<h2 id="notebookgists-created">Notebook/Gists Created 📝</h2>
+<p>Whatever experiments I conduct to help my learning, I polish them and share them using Jupyter Notebook. Here are all of the experiments I conducted this summer.</p>
+<ul>
+<li>Cholesky - Numpy vs Scipy for Large Array, <a href="https://github.com/purna135/GSoC-Learnings/blob/main/Cholesky%20-%20Numpy%20vs%20Scipy%20for%20Large%20Array.ipynb">Source</a></li>
+<li>Cholesky - Numpy vs Scipy for Small Array, <a href="https://github.com/purna135/GSoC-Learnings/blob/main/Cholesky%20-%20Numpy%20vs%20Scipy%20for%20Small%20Array.ipynb">Source</a></li>
+<li>Creating a new Op in Aesara, <a href="https://github.com/purna135/GSoC-Learnings/blob/main/Creating%20new%20Op.ipynb">Source</a></li>
+<li>Creating new Ops - Python implementation, <a href="https://github.com/purna135/GSoC-Learnings/blob/main/Creating%20new%20Ops%20-%20Python%20implementation.ipynb">Source</a></li>
+<li>Experimenting with numpy solve, <a href="https://github.com/purna135/GSoC-Learnings/blob/main/Experimenting%20with%20numpy%20solve.ipynb">Source</a></li>
+<li>Performance Comparison for Solve method - Numpy vs Scipy, <a href="https://github.com/purna135/GSoC-Learnings/blob/main/Performance%20Comparison%20for%20Solve%20method%20-%20Numpy%20vs%20Scipy.ipynb">Source</a></li>
+<li>StickBreakingWeights - Experiment, <a href="https://github.com/purna135/GSoC-Learnings/blob/main/StickBreakingWeights%20-%20Experiment.ipynb">Source</a></li>
+<li>Testing Cholesky Vectorization, <a href="https://github.com/purna135/GSoC-Learnings/blob/main/Testing%20Cholesky%20Vectorization.ipynb">Source</a></li>
+<li>Testing Ops with Nd data, <a href="https://github.com/purna135/GSoC-Learnings/blob/main/Testing%20Ops%20with%20Nd%20data-2.ipynb">Source</a></li>
+<li>Testing Tril and Triu for batch data, <a href="https://github.com/purna135/GSoC-Learnings/blob/main/Testing%20Tril%20and%20Triu%20for%20batch%20data.ipynb">Source</a></li>
+<li>Working Tril for 3D Data, <a href="https://github.com/purna135/GSoC-Learnings/blob/main/Working%20Tril%20for%203D%20Data.ipynb">Source</a></li>
+<li>Numpy Solve Example, <a href="https://github.com/purna135/GSoC-Learnings/blob/main/Numpy%20Solve%20Example.ipynb">Source</a></li>
+</ul>
+<h2 id="future-goals">Future Goals 📌</h2>
+<p>Some future tasks I would like to work upon</p>
+<ul>
+<li>Complete implementation Blockwise Op</li>
+<li>
+<p>Generalize below PyMC distributions:</p>
+<ol>
+<li>MvNormal</li>
+<li>MvStudentT</li>
+<li>KroneckerNormal</li>
+<li>MatrixNormal</li>
+</ol>
+</li>
+</ul>
+<h2 id="conclusion">Conclusion 💌</h2>
+<p>It was a fantastic experience to contribute to open source. I learned a lot of new things. I made some wonderful friends, including <a href="https://github.com/larryshamalama">@larryshamalama</a>, <a href="https://github.com/danhphan">@danhphan</a>, <a href="http://github.com/kunalghosh">@kunalghosh</a>, <a href="https://twitter.com/HassanConor">@hassanconor</a>, <a href="http://github.com/5hv5hvnk">@5hv5hvnk</a> and <a href="https://twitter.com/nicospinu">@nicospinu</a>. Volunteered in building the <a href="https://purna135.github.io/pymcon-hugo/">PyMCon 2022 website</a>. </p>
+<p>I'd like to thank my mentors <a href="https://github.com/Sayam753">Sayam Kumar</a> and <a href="https://github.com/ricardoV94">Ricardo Vieira</a> for their unwavering support throughout this journey. I'm having a great time with the PyMC community. Next, I'd like to thank the <a href="https://github.com/numfocus">@numfocus</a> community for making this opportunity available through Google Summer of Code.</p>
+<p>Thank you for being a part of this wonderful summer.</p>
+<p>With 💗, Purna Chandra Mansingh</p>
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../week-5-6-into-GSoC/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Week 5-6 into GSoC" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Week 5-6 into GSoC
+            </div>
+          </div>
+        </a>
+      
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top"], "search": "../../assets/javascripts/workers/search.85cb4492.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.431f3d41.min.js"></script>
+      
+    
+  </body>
+</html>
