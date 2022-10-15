@@ -12,7 +12,6 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
     transition: all .2s linear;
     line-height: 1.5;
 }
@@ -38,21 +37,18 @@ section {
     padding-top: 1rem;
     padding-bottom: 1rem;
     color: #111;
-    text-transform: uppercase;
 }
 
 .heading3 {
     font-size: 3rem;
     padding-top: 1rem;
     color: #111;
-    text-transform: uppercase;
 }
 
 .heading2 {
     font-size: 2.3rem;
     padding-top: 1rem;
     color: #111;
-    text-transform: uppercase;
 }
 
 
@@ -61,7 +57,6 @@ section {
 .heading2 span,
 .heading3 span {
     color: var(--main-color);
-    text-transform: uppercase;
 }
 
 .btn {
@@ -96,14 +91,12 @@ header {
 }
 
 header .logo {
-    text-transform: uppercase;
     color: #fff;
     font-size: 3rem;
     font-weight: bolder;
 }
 
 header .logo span {
-    text-transform: uppercase;
     color: var(--main-color);
 }
 
@@ -269,12 +262,10 @@ header .follow a:hover {
 .home .content h3 {
     font-size: 4.5rem;
     color: #111;
-    text-transform: uppercase;
 }
 
 .home .content h3 span {
     color: var(--main-color);
-    text-transform: uppercase;
 }
 
 .home .content .info {
@@ -292,7 +283,6 @@ header .follow a:hover {
     font-size: 1.7rem;
     color: #666;
     padding: .5rem 0;
-    text-transform: none;
     text-align: justify;
 }
 
@@ -320,6 +310,11 @@ header .follow a:hover {
     flex: 1 1 50rem;
 }
 
+.about .row-1 .content p a {
+    color: var(--main-color);
+    text-decoration: underline;
+}
+
 .about .row-1 .content h3 {
     color: #333;
     font-size: 3.4rem;
@@ -329,7 +324,6 @@ header .follow a:hover {
     color: #111;
     font-size: 1.6rem;
     padding: .5rem 0;
-    text-transform: none;
     text-align: justify;
 }
 
@@ -396,7 +390,7 @@ header .follow a:hover {
 }
 
 .about .row-2 .skills .progress:nth-child(2) .bar span {
-    width: 75%;
+    width: 90%;
 }
 
 .about .row-2 .skills .progress:nth-child(3) .bar span {
@@ -697,7 +691,6 @@ header .follow a:hover {
     width: 100%;
     border-bottom: .1rem solid #333;
     color: #333;
-    text-transform: none;
     font-size: 1.7rem;
     padding: 1rem 0;
     margin: 1rem 0;
