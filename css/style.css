@@ -528,6 +528,10 @@ header .follow a:hover {
     z-index: 1;
 }
 
+.experience a {
+    color: var(--main-color);
+}
+
 /* Place the container to the left */
 .left {
     left: 0;
